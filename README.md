@@ -5,12 +5,13 @@ Rendu pour le cours de docker devops.
 # Installation
 
 -   `git clone git@github.com:Alexi-Reyes/devopsrendu.git`
--   `docker compose up build`
 -   modifier le `.env` avec vos données
+-   `docker compose up --build`
+-   L'application se trouve sur `http://localhost:5173/`
 
 # Commandes
 
--   `docker compose up build` pour créer les containers, images et volumes
+-   `docker compose up --build` pour créer les containers, images et volumes
 -   `docker compose down` pour stopper les containers, images et volumes
 -   `docker compose up` pour lancer les containers, images et volumes
 -   `docker logs <container>` pour voir les logs du container
